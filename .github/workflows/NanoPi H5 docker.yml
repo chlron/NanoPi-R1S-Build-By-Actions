@@ -89,7 +89,7 @@ jobs:
           cd friendlywrt-h5/friendlywrt
           rm -f ./.config*
           wget https://raw.githubusercontent.com/chlron/NanoPi-R1S-Build-By-Actions/master/r1s-h5-ron-config
-          cp r1s-h5-config .config
+          cp r1s-h5-ron-config .config
       
       - name: Download package
         if: always()
